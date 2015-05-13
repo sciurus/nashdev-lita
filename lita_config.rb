@@ -12,9 +12,14 @@ Lita.configure do |config|
   # :debug, :info, :warn, :error, :fatal
   config.robot.log_level = ENV['LOG_LEVEL'].intern
 
-  # Slack
+  # How you interact, either shell or slack
   config.robot.adapter = ENV['LITA_ADAPTER'].intern
+
+  # Config for slack adapter
   config.adapters.slack.token = ENV['SLACK_TOKEN']
+
+  # Config for shell adapter
+  config.robot.name = ENV['LITA_NAME']
 
   # Redis
   config.redis.host = ENV['REDIS_HOST']

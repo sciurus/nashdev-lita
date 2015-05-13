@@ -4,11 +4,16 @@ A chat bot for [NashDev](https://nashdev.slack.com) powered by [Lita](http://doc
 
 ## Adding Plugins
 
-Lita plugins are distributed as ruby gems. You can see a list of available ones [here](https://www.lita.io/plugins). To add one to this bot, add it the the Gemfile and submit a pull request!
+Lita plugins are distributed as ruby gems. You can see a list of available ones [here](https://www.lita.io/plugins). To add one to this bot, 
+
+1. Add it to the Gemfile
+1. Run `bundle install` to lock the version
+1. Commit both Gemfile and Gemfile.lock
+1. Open a pull request
 
 ## Running Locally
 
-You may want to run the bot locally for testing.
+You may want to run the bot locally for testing. There is a sample configuration that will let you interact with Lita via your shell instead of through slack.
 
 ### Requirements
 
