@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    crass (1.0.2)
     dotenv (2.0.1)
     eventmachine (1.0.7)
     faraday (0.9.1)
@@ -25,6 +26,30 @@ GEM
       rb-readline (>= 0.5.1)
       redis-namespace (>= 1.3.0)
       thor (>= 0.18.1)
+    lita-catfacts (0.0.4)
+      lita (>= 2.3)
+    lita-dogebomb (1.0.0)
+      lita (>= 2.0)
+    lita-down-for-everyone (0.0.3)
+      lita
+    lita-excuses (0.0.6)
+      lita (>= 2.2)
+      nokogiri
+    lita-github-status (0.1.0)
+      lita (>= 4.3)
+    lita-goforit (0.1.0)
+      lita (>= 4.3)
+    lita-google (1.1.0)
+      lita (>= 4.0)
+    lita-google-images (2.0.0)
+      lita (>= 4.0)
+    lita-howdoi (0.0.3)
+      lita (>= 4.2)
+      nokogiri
+    lita-rules (0.0.1)
+      lita (>= 3.0)
+    lita-shipit (0.0.1)
+      lita (>= 4.0)
     lita-slack (1.4.0)
       eventmachine
       faraday
@@ -33,8 +58,19 @@ GEM
       multi_json
     lita-vader (0.2.0)
       lita (>= 4.2)
+    lita-wikipedia (0.0.4)
+      lita (>= 3.1)
+      nokogiri (>= 1.6.6)
+      sanitize (>= 3.1.2)
+    lita-xkcd (0.0.5)
+      lita (>= 2.2)
+    mini_portile (0.6.2)
     multi_json (1.11.0)
     multipart-post (2.0.0)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    nokogumbo (1.4.1)
+      nokogiri
     puma (2.11.2)
       rack (>= 1.1, < 2.0)
     rack (1.6.1)
@@ -42,6 +78,10 @@ GEM
     redis (3.2.1)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
+    sanitize (4.0.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.4.4)
+      nokogumbo (= 1.4.1)
     thor (0.19.1)
     url_mount (0.2.1)
       rack
@@ -55,5 +95,18 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   lita
+  lita-catfacts
+  lita-dogebomb
+  lita-down-for-everyone
+  lita-excuses
+  lita-github-status
+  lita-goforit
+  lita-google
+  lita-google-images
+  lita-howdoi
+  lita-rules
+  lita-shipit
   lita-slack
   lita-vader
+  lita-wikipedia
+  lita-xkcd
