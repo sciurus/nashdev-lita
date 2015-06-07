@@ -28,12 +28,17 @@ GEM
       thor (>= 0.18.1)
     lita-catfacts (0.0.4)
       lita (>= 2.3)
+    lita-chm (0.0.1)
+      lita (>= 3.2.0)
+      nokogiri
     lita-dice (0.0.1)
       lita (>= 2.7)
     lita-dogebomb (1.0.0)
       lita (>= 2.0)
     lita-down-for-everyone (0.0.3)
       lita
+    lita-eightball (1.0.4)
+      lita (>= 2.0)
     lita-excuses (0.0.6)
       lita (>= 2.2)
       nokogiri
@@ -104,9 +109,11 @@ DEPENDENCIES
   dotenv
   lita
   lita-catfacts
+  lita-chm
   lita-dice
   lita-dogebomb
   lita-down-for-everyone
+  lita-eightball
   lita-excuses
   lita-fortune
   lita-github-status
