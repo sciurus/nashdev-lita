@@ -69,6 +69,8 @@ GEM
       faye-websocket (>= 0.8.0)
       lita (>= 4.0.4)
       multi_json
+    lita-snack (0.1.0)
+      lita (>= 4.3)
     lita-vader (0.2.0)
       lita (>= 4.2)
     lita-wikipedia (0.0.4)
@@ -126,6 +128,7 @@ DEPENDENCIES
   lita-rules
   lita-shipit
   lita-slack
+  lita-snack
   lita-vader
   lita-wikipedia
   lita-xkcd
