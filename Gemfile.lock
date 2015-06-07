@@ -37,6 +37,8 @@ GEM
     lita-excuses (0.0.6)
       lita (>= 2.2)
       nokogiri
+    lita-fortune (0.0.3)
+      lita (>= 2.0)
     lita-github-status (0.1.0)
       lita (>= 4.3)
     lita-goforit (0.1.0)
@@ -106,6 +108,7 @@ DEPENDENCIES
   lita-dogebomb
   lita-down-for-everyone
   lita-excuses
+  lita-fortune
   lita-github-status
   lita-goforit
   lita-google
