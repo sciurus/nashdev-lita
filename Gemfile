@@ -4,6 +4,7 @@ gem "lita"
 gem "lita-slack"
 gem "dotenv"
 
+gem "lita-applause"
 gem "lita-catfacts"
 gem "lita-chm"
 gem "lita-dice"
