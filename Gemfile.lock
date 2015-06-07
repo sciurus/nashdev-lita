@@ -28,6 +28,8 @@ GEM
       thor (>= 0.18.1)
     lita-catfacts (0.0.4)
       lita (>= 2.3)
+    lita-dice (0.0.1)
+      lita (>= 2.7)
     lita-dogebomb (1.0.0)
       lita (>= 2.0)
     lita-down-for-everyone (0.0.3)
@@ -98,6 +100,7 @@ DEPENDENCIES
   dotenv
   lita
   lita-catfacts
+  lita-dice
   lita-dogebomb
   lita-down-for-everyone
   lita-excuses

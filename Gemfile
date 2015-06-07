@@ -5,6 +5,7 @@ gem "lita-slack"
 gem "dotenv"
 
 gem "lita-catfacts"
+gem "lita-dice"
 gem "lita-dogebomb"
 gem "lita-down-for-everyone"
 gem "lita-excuses"
