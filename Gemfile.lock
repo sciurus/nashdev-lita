@@ -45,6 +45,8 @@ GEM
       lita (>= 4.0)
     lita-google-images (2.0.0)
       lita (>= 4.0)
+    lita-hal-9000 (0.1.1)
+      lita (>= 4.0)
     lita-howdoi (0.0.3)
       lita (>= 4.2)
       nokogiri
@@ -108,6 +110,7 @@ DEPENDENCIES
   lita-goforit
   lita-google
   lita-google-images
+  lita-hal-9000
   lita-howdoi
   lita-rimshot
   lita-rules
