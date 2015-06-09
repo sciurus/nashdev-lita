@@ -27,5 +27,8 @@ Lita.configure do |config|
 
   # weather
    config.handlers.weather.api_key = ENV['WUNDERGROUND_KEY']
+
+   # directions
+   config.handlers.directions.google_api_key = ENV["GOOGLE_KEY"]
 end
 

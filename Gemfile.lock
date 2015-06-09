@@ -5,6 +5,8 @@ GEM
       httparty
       xml-simple
     crass (1.0.2)
+    domain_name (0.5.24)
+      unf (>= 0.0.5, < 1.0.0)
     dotenv (2.0.1)
     eventmachine (1.0.7)
     faraday (0.9.1)
@@ -12,6 +14,8 @@ GEM
     faye-websocket (0.9.2)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
     http_router (0.11.1)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -45,6 +49,9 @@ GEM
       nokogiri
     lita-dice (0.0.1)
       lita (>= 2.7)
+    lita-directions (1.0.2)
+      lita (>= 4.1)
+      rest-client
     lita-dogebomb (1.0.0)
       lita (>= 2.0)
     lita-down-for-everyone (0.0.3)
@@ -93,10 +100,12 @@ GEM
       sanitize (>= 3.1.2)
     lita-xkcd (0.0.5)
       lita (>= 2.2)
+    mime-types (2.6.1)
     mini_portile (0.6.2)
     multi_json (1.11.0)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
+    netrc (0.10.3)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
     nokogumbo (1.4.1)
@@ -108,11 +117,18 @@ GEM
     redis (3.2.1)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
     sanitize (4.0.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.4.4)
       nokogumbo (= 1.4.1)
     thor (0.19.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.1)
     url_mount (0.2.1)
       rack
     websocket-driver (0.5.4)
@@ -131,6 +147,7 @@ DEPENDENCIES
   lita-catfacts
   lita-chm
   lita-dice
+  lita-directions
   lita-dogebomb
   lita-down-for-everyone
   lita-eightball
