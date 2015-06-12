@@ -30,5 +30,8 @@ Lita.configure do |config|
 
    # directions
    config.handlers.directions.google_api_key = ENV["GOOGLE_KEY"]
+
+   # time
+   config.handlers.time.apikey =  ENV["WWO_KEY"]
 end
 

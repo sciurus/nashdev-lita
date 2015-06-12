@@ -90,6 +90,8 @@ GEM
       multi_json
     lita-snack (0.1.0)
       lita (>= 4.3)
+    lita-time (0.1.0)
+      lita (>= 3.3)
     lita-vader (0.2.0)
       lita (>= 4.2)
     lita-weather (0.0.4)
@@ -164,6 +166,7 @@ DEPENDENCIES
   lita-shipit
   lita-slack
   lita-snack
+  lita-time
   lita-vader
   lita-weather
   lita-wikipedia
