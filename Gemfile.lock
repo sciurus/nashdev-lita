@@ -76,6 +76,8 @@ GEM
     lita-howdoi (0.0.3)
       lita (>= 4.2)
       nokogiri
+    lita-poll (1.0.2)
+      lita (>= 4.2.1)
     lita-rimshot (0.1.1)
       lita (>= 3.0.0)
     lita-rules (0.0.1)
@@ -160,6 +162,7 @@ DEPENDENCIES
   lita-google-images
   lita-hal-9000
   lita-howdoi
+  lita-poll
   lita-rimshot
   lita-rules
   lita-shipit
