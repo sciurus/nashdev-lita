@@ -37,5 +37,8 @@ Lita.configure do |config|
    # image search
    config.handlers.google_images.google_cse_id = ENV["GOOGLE_CSE_ID"]
    config.handlers.google_images.google_cse_key = ENV["GOOGLE_KEY"]
+
+   # nashdev resources
+   config.handlers.nashdev_resources.issue_token = ENV['RESOURCE_ISSUE_TOKEN']
 end
 
