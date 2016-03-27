@@ -76,6 +76,8 @@ GEM
     lita-howdoi (0.0.3)
       lita (>= 4.2)
       nokogiri
+    lita-nashdev-resources (1.0.1)
+      lita (>= 4.4)
     lita-poll (1.0.2)
       lita (>= 4.2.1)
     lita-rimshot (0.1.1)
@@ -162,6 +164,7 @@ DEPENDENCIES
   lita-google-images
   lita-hal-9000
   lita-howdoi
+  lita-nashdev-resources (>= 1.0.1)
   lita-poll
   lita-rimshot
   lita-rules
@@ -173,3 +176,6 @@ DEPENDENCIES
   lita-weather
   lita-wikipedia
   lita-xkcd
+
+BUNDLED WITH
+   1.11.2
