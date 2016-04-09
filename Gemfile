@@ -28,6 +28,7 @@ gem "lita-rules"
 gem "lita-snack"
 gem "lita-shipit"
 gem "lita-time"
+gem "lita-trivia", '1.0.0'
 gem "lita-vader"
 gem "lita-weather"
 gem "lita-wikipedia"

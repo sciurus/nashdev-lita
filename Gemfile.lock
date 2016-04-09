@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    RubyInline (3.12.4)
+      ZenTest (~> 4.3)
+    ZenTest (4.11.0)
     bgg-api (0.0.2)
       httparty
       xml-simple
@@ -14,6 +17,8 @@ GEM
     faye-websocket (0.10.2)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
+    fuzzy-string-match (0.9.7)
+      RubyInline (>= 3.8.6)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     http_router (0.11.2)
@@ -96,6 +101,9 @@ GEM
       lita (>= 4.3)
     lita-time (0.1.0)
       lita (>= 3.3)
+    lita-trivia (1.0.0)
+      fuzzy-string-match (~> 0.9)
+      lita (>= 4.7)
     lita-vader (0.2.0)
       lita (>= 4.2)
     lita-weather (0.0.4)
@@ -172,6 +180,7 @@ DEPENDENCIES
   lita-slack
   lita-snack
   lita-time
+  lita-trivia (= 1.0.0)
   lita-vader
   lita-weather
   lita-wikipedia
