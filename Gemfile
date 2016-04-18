@@ -21,6 +21,7 @@ gem "lita-google"
 gem "lita-google-images"
 gem "lita-hal-9000"
 gem "lita-howdoi"
+gem "lita-mtg"
 gem "lita-nashdev-resources", '>= 1.0.1'
 gem "lita-poll"
 gem "lita-rimshot"
