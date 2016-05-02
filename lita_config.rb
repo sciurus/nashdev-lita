@@ -18,7 +18,6 @@ Lita.configure do |config|
 
   # Redis
   config.redis.host = ENV['REDIS_HOST']
-  config.redis.port = ENV['REDIS_PORT']
 
   # weather
    config.handlers.weather.api_key = ENV['WUNDERGROUND_KEY']
