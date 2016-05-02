@@ -1,11 +1,6 @@
 require 'dotenv'
 
-Dotenv.tap do |de|
-  # load contents of file at LITA_ENV, useful for production
-  de.load(ENV['LITA_ENV']) if ENV['LITA_ENV']
-  # load contents of .env from current directory, useful for development
-  de.load
-end
+Dotenv.load
 
 Lita.configure do |config|
   # The severity of messages to log. Options are:
