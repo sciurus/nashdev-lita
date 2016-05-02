@@ -36,7 +36,7 @@ Instead of installing things locally, if you prefer you can test in Docker.
 ```
 cp .env.example .env
 # change REDIS_HOST to redis in .env
-docker build -t nashdev-lita
+docker build -t nashdev-lita .
 docker run -d --name nashdev-redis redis:3.0.7
 docker run -i -t --link nashdev-redis:redis nashdev-lita bundle exec lita
 ```
